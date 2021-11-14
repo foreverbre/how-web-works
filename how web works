@@ -1,0 +1,32 @@
+What is HTTP?   
+Hyper text Transfer Protocol is governs how clients get data from, or send data to, a server
+
+What is a URL?
+Universal Resource Locator is an address for some internet resource
+
+What is DNS?
+Domain name service is a system that takes human readable urls and converts them into IP addresses
+
+What is a query string?
+The query string allows you to pass key-value pairs into the url
+
+What are two HTTP verbs and how are they different?
+GET-get data from the server. Most pages
+POST-send some data to the server. For example pages that change data on server
+
+What is an HTTP request?
+Request from a client to a server which follows the HTTP protocol (GET)
+
+What is an HTTP response?
+Response from a server to a client which follows the HTTP protocol (POST)
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+Headers provide additional information about the request or the response.Request: Host, user-agent, accept, cookie, cache-control
+Response: Date/time, set-cookies, content-type, last modified, cache-control
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+1. Browser "resolves" the name into an IP address using DNS
+2. Brower makes a request to that IP address including headers
+3. The server sends a response
+4. The browser makes a DOM from that HTML and finds any other resources needed like images
+5. The browser makes separate HTTP requests for those resources and receives a response from the server for each
